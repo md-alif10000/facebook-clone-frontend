@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function SidebarRow({ Icon, title, src }) {
   return (
-    <div className="flex items-center p-2 lg:p-4 space-x-2 hover:bg-gray-100 rounded-full cursor-pointer ">
+    <div className="flex w-180 items-center p-2 lg:p-4 space-x-2 hover:bg-gray-100 rounded-full cursor-pointer ">
       {src && (
         <Image
           src={src}

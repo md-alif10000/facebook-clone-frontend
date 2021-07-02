@@ -20,7 +20,7 @@ export default function Home({ session }) {
       </Head>
       <Header />
       <div
-        className="flex bg-gray-100 "
+        className="flex bg-gray-100 justify-between "
         style={{maxHeight:"calc(100vh - 65px)"}}
      
       >
